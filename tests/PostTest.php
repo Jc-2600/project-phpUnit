@@ -15,4 +15,5 @@ class PostTest extends TestCase{
         $this->assertEquals(1, $post->countComments());
         $this->assertInstanceOf(Comment::class, $post->getComments()[0]);
     }
+    
 }
